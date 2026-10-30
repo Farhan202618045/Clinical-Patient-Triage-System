@@ -1,3 +1,4 @@
+
 # Clinical Patient Triage System
 
 A local Python web application for a Data Structures and Algorithms project. It simulates fictional patient registration, staff-assigned severity routing, global priority selection, room-specific FIFO queues, patient search, treatment/workflow action histories, severity updates, discharge tracking, and local JSON persistence.
@@ -98,3 +99,7 @@ clinical_patient_triage_system/
 ## Limitations and possible future work
 
 This demonstrator has no authentication, role-based access, encryption, tamper-proof audit storage, multi-user concurrency control, database server, or clinically validated triage rules. The JSON file is simple local persistence, not a transactional database. For coursework extensions, consider SQLite, stronger validation, test coverage, login/roles and backups. Any healthcare deployment would require qualified clinical governance, privacy/security engineering, and applicable regulatory review.
+=======
+# Clinical-Patient-Triage-System
+An emergency department platform that manages daily patient registrations, live room queues, patient search records, and medical treatment action histories. The system will allow staff to route incoming patients seamlessly, track medical history steps, and look up individual records instantly based on severity or patient ID. 
+
